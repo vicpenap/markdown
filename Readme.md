@@ -34,11 +34,11 @@ Probably the easiest way to add markdown contents on a page:
 
 Add the following to the conf/route
 
-    GET     /docs/images/{imageName}     markdown.MarkdownController.image
-    GET     /docs/{page}.md              markdown.MarkdownController.transform
+    GET     /docs/images/{imageName}     MarkdownController.image
+    GET     /docs/{page}.md              MarkdownController.transform
 
 Ensure the markdown pages are located in
-* app/views/docs/         -for the documents
+* app/views/docs/*.md     -for the documents
 * app/views/docs/images/  -for the images
 
 Now access the page using `http://localhost:9000/docs/intro.md`

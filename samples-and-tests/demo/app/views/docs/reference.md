@@ -1,3 +1,5 @@
+**This content is being service via MarkdownController.process**
+
 # Syntax Cheatsheet
 
 ## Phrase Emphasis
@@ -19,12 +21,12 @@ else in the doc, define the link:
 ## Images
 
 Inline (titles are optional):
-![alt text](/path/img.jpg "Title")
+![alt text](images/markdown-icon.png "Title")
 
 Reference-style:
 ![alt text][id]
 
-[id]: /url/to/img.jpg "Title"
+[id]: images/markdown-icon.png "Title"
 
 ## Headers
 
