@@ -1,6 +1,8 @@
 /eclipse/
 /dist/
 *.class
+*.swp
+/lib/*
 /.project
 /.classpath
 /.settings
