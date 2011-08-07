@@ -37,8 +37,9 @@ Add the following to the conf/route
     GET     /docs/{page}.md              MarkdownController.transform
 
 Ensure the markdown pages are located in
-* app/views/docs/*.md     -for the documents
-* app/views/docs/images/  -for the images
+
+*. app/views/docs/*.md     -for the documents
+*. app/views/docs/images/  -for the images
 
 Now access the page using `http://localhost:9000/docs/intro.md`
 
