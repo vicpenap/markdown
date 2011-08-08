@@ -11,7 +11,7 @@ features such as headers, *emphasis*, code blocks, blockquotes, and links.
 
 The module provides 3 integration points:
 
-1. first, a groovy page extension ${str.markdown()}
+1. first, a groovy page extension ${str.markdown().raw()}
 2. a basic controller, to quickly serve your markdown contents
 3. last but not least, a powerful developer API with support for streams and md documents. 
 
