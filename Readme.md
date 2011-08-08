@@ -12,12 +12,12 @@ features such as headers, *emphasis*, code blocks, blockquotes, and links.
 The module provides 3 integration points:
 
 1. first, a groovy page extension ${str.markdown().raw()}
-2. a basic controller, to quickly serve your markdown contents
+2. a basic controller to quickly serve your markdown contents, extended as you whish.
 3. last but not least, a powerful developer API with support for streams and md documents. 
 
 ##How is this markdown module better than others ?
 
-The module is based on the excellent [markdownPapers](https://github.com/lruiz/MarkdownPapers) project which not only shines by its speed (2x faster that the nearest competitor), but also by its design:
+The module is based on the excellent [markdownPapers](https://github.com/lruiz/MarkdownPapers) project which not only shines by its speed (4x faster that the nearest competitor), but also by its design:
 
 Based on JavaCC, the markdown parser can work with streams and build a markdown document tree (should you need to enhance the md grammar)
 
@@ -68,4 +68,5 @@ Part of the distribution
 ## Credits
 
 markdownPapers - Larry Ruiz - [https://github.com/lruiz/MarkdownPapers](https://github.com/lruiz/MarkdownPapers)
+
 play-markdown module - Olivier Refalo - [https://github.com/orefalo](https://github.com/orefalo)
