@@ -1,4 +1,3 @@
-
 #Markdown module for the play framework
 
 ##What is markdown ?
@@ -11,15 +10,17 @@ features such as headers, *emphasis*, code blocks, blockquotes, and links.
 
 The module provides 3 integration points:
 
-1. first, a groovy page extension ${str.markdown().raw()}
-2. a basic controller to quickly serve your markdown contents, extended as you whish.
-3. last but not least, a powerful developer API with support for streams and md documents. 
+1. First, a groovy page java extension ${str.markdown().raw()}
+2. A basic controller to quickly serve your markdown contents, extend to your likings.
+3. Last but not least, a powerful developer API with support for streams and markdown document trees. 
 
 ##How is this markdown module better than others ?
 
-The module is based on the excellent [markdownPapers](https://github.com/lruiz/MarkdownPapers) project which not only shines by its speed (4x faster that the nearest competitor), but also by its design:
+The module is based on the excellent [markdownPapers](https://github.com/lruiz/MarkdownPapers) project which not only shines by its speed (4x faster than the nearest competitor), but also by its design:
 
-Based on JavaCC, the markdown parser can work with streams and build a markdown document tree (should you need to enhance the md grammar)
+Based on JavaCC, the markdown parser can work with streams and build a markdown document tree. The tree can be processed using a Visitor pattern. It's a great way to enhance the markdown grammar with your own extensions.
+
+Overall, MarkdownPaper is faster and uses less memory than any of its Java competitors.
 
 ##Usage:
 
