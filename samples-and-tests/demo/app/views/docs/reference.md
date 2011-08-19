@@ -24,13 +24,14 @@ Inline (titles are optional):
 ![alt text](images/markdown-icon.png "Title")
 
 Reference-style:
-![alt text][id]
+![alt text][id2]
 
-[id]: images/markdown-icon.png "Title"
+[id2]: images/markdown-icon.png "Title"
 
 ## Headers
 
 Setext-style:
+
 Header 1
 ========
 
@@ -38,6 +39,7 @@ Header 2
 --------
 
 atx-style (closing #'s are optional):
+
 # Header 1 #
 
 ## Header 2 ##
@@ -102,7 +104,6 @@ Three or more dashes or asterisks:
 
 * * *
 
-- - - - 
 ## Manual Line Breaks
 
 End a line with two or more spaces:
