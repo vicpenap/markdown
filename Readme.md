@@ -71,3 +71,7 @@ Part of the distribution
 markdownPapers - Larry Ruiz - [https://github.com/lruiz/MarkdownPapers](https://github.com/lruiz/MarkdownPapers)
 
 play-markdown module - Olivier Refalo - [https://github.com/orefalo](https://github.com/orefalo)
+
+## History
+
+Version 1.3 : markdownPaper upgraded to v1.2.4
