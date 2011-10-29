@@ -1,5 +1,5 @@
-self: play -> markdown 1.3
+self: play -> markdown 1.4
 
 require:
     - play
-    - org.tautua.markdownpapers -> markdownpapers-core 1.2.4
+    - org.tautua.markdownpapers -> markdownpapers-core 1.2.5
