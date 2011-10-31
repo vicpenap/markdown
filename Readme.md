@@ -34,8 +34,8 @@ Probably the easiest way to add markdown contents on a page:
 
 Add the following to the conf/route
 
-    GET     /docs/images/{imageName}     MarkdownController.image
-    GET     /docs/{page}.md              MarkdownController.transform
+    GET     /docs/images/{imageName}\.{ext}     MarkdownController.image
+    GET     /docs/{page}\.md                    MarkdownController.transform
 
 Ensure the markdown pages are located in
 
