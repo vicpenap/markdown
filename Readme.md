@@ -74,4 +74,6 @@ play-markdown module - Olivier Refalo - [https://github.com/orefalo](https://git
 
 ## History
 
+version 1.5 : fixed: deploying in prod mode fails compilation
+Version 1.4 : markdownPaper upgraded to v1.2.5
 Version 1.3 : markdownPaper upgraded to v1.2.4
