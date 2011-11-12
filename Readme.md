@@ -39,8 +39,8 @@ Add the following to the conf/route
 
 Ensure the markdown pages are located in
 
-*. app/views/docs/*.md     -for the documents
-*. app/views/docs/images/  -for the images
+*. public/mddocs/*.md     -for the documents
+*. public/mddocs/images/  -for the images
 
 Now access the page using `http://localhost:9000/docs/intro.md`
 

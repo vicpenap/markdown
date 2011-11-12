@@ -1,6 +1,6 @@
 require: 
     - play
-    - markdown -> markdown 1.4
+    - markdown -> markdown 1.5
     
 # Anything below this point is for testing purposes, we are referencing the parent module
 # in a real application, you would replace the mardown reference above with

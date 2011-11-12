@@ -2,6 +2,8 @@
 /dist/
 *.class
 *.swp
+server.pid
+logs/
 /lib/*
 /.project
 /.classpath

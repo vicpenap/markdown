@@ -11,8 +11,8 @@ import play.mvc.Controller;
 
 public class MarkdownController extends Controller {
 
-	private static final String IMAGE_LOCATION = "app/views/docs/images/";
-	private static final String DOCUMENT_LOCATION = "app/views/docs/";
+	private static final String IMAGE_LOCATION = "public/mddocs/images/";
+	private static final String DOCUMENT_LOCATION = "public/mddocs/";
 
 	public static void transform(String page) throws Exception {
 
