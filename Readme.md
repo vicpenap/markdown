@@ -26,9 +26,14 @@ Overall, MarkdownPaper is faster and uses less memory than any of its Java compe
 
 ### Groovy page
 
-Probably the easiest way to add markdown contents on a page:
+Probably the easiest way to add markdown contents on a page. You can type
+the markdown text or read it from a file:
 
-    ${"**Hello** *world*".markdown().raw()}
+    ${'**Hello** *world*'.markdown().raw()}
+    ${'./manual.md'.markdown().raw()}
+
+Or, if you want, use the dedicated functions `markdownText()` and 
+`markdownFile()`.
 
 ### Controller
 
